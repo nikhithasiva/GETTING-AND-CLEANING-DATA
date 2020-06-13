@@ -1,0 +1,32 @@
+---
+title: "codebook"
+author: "Nikhitha S"
+date: "14/06/2020"
+output: html_document
+---
+
+The following steps were followed in cleaning the data and obtaining a tidy data set.
+(1)Merging the training and the test sets to create one data set.
+(2)Extracting only the measurements on the mean and standard deviation for each measurement.
+(3)Useing descriptive activity names to name the activities in the data set
+(4)Appropriately labeling the data set with descriptive variable names.
+(5)Creating a second, independent tidy data set with the average of each variable for each activity and each subject.
+ 
+ The following steps were followed while cleaning
+ -the functions and activities were extracted from the table
+ -the train and test data were read from the given dataset
+ -the training and testing data were combined into a single dataframe
+ 
+ The column names were replaced and labelled as follows
+ -"Acc"=          "Accelerometer"
+ -"Gyro"=         "Gyroscope"
+ -"BodyBody"=     "Body"
+ -"Mag"=          "Magnitude"
+ -"^t"=          "Time"
+ -"^f"=           "Frequency"
+ -"tBody" =      "TimeBody"
+ -"-mean()"=     "Mean"
+ -"-std()" =     "STD"
+ -"-freq()"=     "Frequency"
+ -"angle"=       "Angle"
+ -"gravity"=     "Gravity"
